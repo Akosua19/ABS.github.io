@@ -1,0 +1,23 @@
+// SCRIPTS 
+
+/*function hello(){
+ alert('Onload Effects ! Welcome')
+};
+
+hello()*/
+
+let age = 52;
+//  prompt("What's your age? ")
+if(age == 30){
+    document.write('You are just a youngin !')
+}else if(age > 60){
+    document.write("You're older enough !")
+}else{
+    document.write('You are between the ages of 30 and above !')
+}
+
+//CHANGING  THE INNERHTML OF A P..
+document.getElementById('Paragraph1').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quas delectus velit quibusdam perspiciatis? Architecto veritatis ratione accusantium, aut neque aperiam veniam tenetur laudantium ipsam numquam at quod maxime ullam.';
+
+
+
